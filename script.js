@@ -1,6 +1,6 @@
 
 function fetchWeatherData(latitude, longitude) {
-    const apiKey = '3155bdfac32f20e839f31f722852cc45';
+    const apiKey = '3534f601a2c63c2fe4f04f01f6e41361';
     const apiUrl = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${latitude},${longitude}`;
 
     fetch(apiUrl)
